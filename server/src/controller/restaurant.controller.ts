@@ -1,6 +1,5 @@
 import { Request, Response } from "express";
 import { Restaurant } from "../models/restaurant.model";
-import { Multer } from "multer";
 import uploadImageOnCloudinary from "../utils/imageUploader";
 import { Order } from "../models/order.model";
 
